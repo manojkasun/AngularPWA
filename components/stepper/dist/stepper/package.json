@@ -1,0 +1,40 @@
+{
+  "name": "@bit/cas-aanzee.pairprogramming.stepper",
+  "version": "0.0.37",
+  "homepage": "https://bit.dev/cas-aanzee/pairprogramming/stepper",
+  "main": "bundles/bit-cas-aanzee.pairprogramming.stepper.umd.js",
+  "dependencies": {
+    "@angular/core": "8.2.6",
+    "@angular/common": "8.2.6",
+    "tslib": "^1.9.0"
+  },
+  "devDependencies": {
+    "rxjs": "^6.4.0",
+    "zone.js": "~0.9.1"
+  },
+  "peerDependencies": {
+    "@angular/core": "8.2.6",
+    "@angular/common": "8.2.6"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@0.2.0"
+    },
+    "overrides": {
+      "peerDependencies": {
+        "@angular/core": "8.2.6",
+        "@angular/common": "8.2.6"
+      }
+    }
+  },
+  "es2015": "fesm2015/bit-cas-aanzee.pairprogramming.stepper.js",
+  "esm5": "esm5/bit-cas-aanzee.pairprogramming.stepper.js",
+  "esm2015": "esm2015/bit-cas-aanzee.pairprogramming.stepper.js",
+  "fesm5": "fesm5/bit-cas-aanzee.pairprogramming.stepper.js",
+  "fesm2015": "fesm2015/bit-cas-aanzee.pairprogramming.stepper.js",
+  "module": "fesm5/bit-cas-aanzee.pairprogramming.stepper.js",
+  "typings": "bit-cas-aanzee.pairprogramming.stepper.d.ts",
+  "metadata": "bit-cas-aanzee.pairprogramming.stepper.metadata.json",
+  "sideEffects": false
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@bit/valor-software.ngx-bootstrap.rating/rating",
+  "version": "5.1.1",
+  "description": "Native Angular Bootstrap Components",
+  "private": true,
+  "main": "../bundles/bit-rating-rating.umd.js",
+  "module": "../fesm5/bit-rating-rating.js",
+  "es2015": "../fesm2015/bit-rating-rating.js",
+  "esm5": "../esm5/rating/bit-rating-rating.js",
+  "esm2015": "../esm2015/rating/bit-rating-rating.js",
+  "fesm5": "../fesm5/bit-rating-rating.js",
+  "fesm2015": "../fesm2015/bit-rating-rating.js",
+  "typings": "bit-rating-rating.d.ts",
+  "metadata": "bit-rating-rating.metadata.json",
+  "sideEffects": false
+}

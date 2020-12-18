@@ -1,0 +1,7 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+import { ObjectUtils } from '@bit/primefaces.primeng.utils';
+export { ObjectUtils };
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoib2JqZWN0dXRpbHMuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9AYml0L3NlbGVjdGJ1dHRvbi8iLCJzb3VyY2VzIjpbInV0aWxzL29iamVjdHV0aWxzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7QUFBQSxPQUFPLEVBQUUsV0FBVyxFQUFFLE1BQU0sWUFBWSxDQUFDO0FBQ3pDLE9BQU8sRUFBRSxXQUFXLEVBQUUsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IE9iamVjdFV0aWxzIH0gZnJvbSAnQGJpdC91dGlscyc7XG5leHBvcnQgeyBPYmplY3RVdGlscyB9OyJdfQ==

@@ -1,0 +1,30 @@
+{
+  "name": "@bit/fraperleo.angular-tutorial.my-button",
+  "version": "0.0.1-0",
+  "main": "bundles/bit-my-button.umd.js",
+  "componentId": {
+    "name": "my-button"
+  },
+  "dependencies": {
+    "@angular/core": "~8.2.14",
+    "ngx-bootstrap": "^6.1.0",
+    "@angular/common": "~8.2.14",
+    "tslib": "^1.10.0"
+  },
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@9.0.21"
+    }
+  },
+  "module": "fesm5/bit-my-button.js",
+  "es2015": "fesm2015/bit-my-button.js",
+  "esm5": "esm5/bit-my-button.js",
+  "esm2015": "esm2015/bit-my-button.js",
+  "fesm5": "fesm5/bit-my-button.js",
+  "fesm2015": "fesm2015/bit-my-button.js",
+  "typings": "bit-my-button.d.ts",
+  "metadata": "bit-my-button.metadata.json",
+  "sideEffects": false
+}

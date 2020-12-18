@@ -1,0 +1,49 @@
+{
+  "name": "@bit/cas-aanzee.pairprogramming.stepper",
+  "version": "0.0.38",
+  "homepage": "https://bit.dev/cas-aanzee/pairprogramming/stepper",
+  "main": "dist/stepper/bundles/bit-cas-aanzee.pairprogramming.stepper.umd.js",
+  "componentId": {
+    "scope": "cas-aanzee.pairprogramming",
+    "name": "stepper",
+    "version": "0.0.38"
+  },
+  "dependencies": {
+    "@angular/core": "8.2.6",
+    "@angular/common": "8.2.6"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "@angular/core": "8.2.6",
+    "@angular/common": "8.2.6"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@0.2.0"
+    },
+    "overrides": {
+      "peerDependencies": {
+        "@angular/core": "8.2.6",
+        "@angular/common": "8.2.6"
+      }
+    }
+  },
+  "es2015_ivy_ngcc": "__ivy_ngcc__/dist/stepper/fesm2015/bit-cas-aanzee.pairprogramming.stepper.js",
+  "es2015": "dist/stepper/fesm2015/bit-cas-aanzee.pairprogramming.stepper.js",
+  "esm5": "dist/stepper/esm5/bit-cas-aanzee.pairprogramming.stepper.js",
+  "esm2015": "dist/stepper/esm2015/bit-cas-aanzee.pairprogramming.stepper.js",
+  "fesm5": "dist/stepper/fesm5/bit-cas-aanzee.pairprogramming.stepper.js",
+  "fesm2015_ivy_ngcc": "__ivy_ngcc__/dist/stepper/fesm2015/bit-cas-aanzee.pairprogramming.stepper.js",
+  "fesm2015": "dist/stepper/fesm2015/bit-cas-aanzee.pairprogramming.stepper.js",
+  "module": "dist/stepper/fesm5/bit-cas-aanzee.pairprogramming.stepper.js",
+  "typings": "dist/stepper/bit-cas-aanzee.pairprogramming.stepper.d.ts",
+  "__processed_by_ivy_ngcc__": {
+    "es2015": "10.1.6",
+    "fesm2015": "10.1.6",
+    "typings": "10.1.6"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"
+  }
+}

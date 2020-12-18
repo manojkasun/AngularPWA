@@ -1,0 +1,13 @@
+<div class="stepper">
+	<button (click)="decreaseValue()">-</button>
+	<input
+		[ngClass]="{ 'stepper__input': !hideInput }"
+		[attr.type]="hideInput ? 'hidden' : 'number'"
+		(change)="inputChange($event)"
+		pattern="[0-9]*"
+		autocomplete="off"
+		value="{{ value }}"
+		id="{{ stepperId }}"
+	>
+	<button (click)="increaseValue()"> +</button>
+</div>

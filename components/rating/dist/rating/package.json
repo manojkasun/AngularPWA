@@ -1,0 +1,45 @@
+{
+  "name": "@bit/valor-software.ngx-bootstrap.rating",
+  "version": "0.0.1-0",
+  "main": "bundles/bit-rating.umd.js",
+  "dependencies": {
+    "tslib": "^1.9.0"
+  },
+  "devDependencies": {
+    "@angular/common": ">=7.0.0",
+    "@angular/core": ">=7.0.0",
+    "@angular/forms": "^8.0.0",
+    "@angular/animations": "^8.0.0"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=7.0.0",
+    "@angular/core": ">=7.0.0",
+    "@angular/forms": "^8.0.0",
+    "@angular/animations": "^8.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@0.1.7"
+    },
+    "overrides": {
+      "dependencies": {
+        "@angular/forms": "-",
+        "@angular/animations": "-"
+      },
+      "peerDependencies": {
+        "@angular/forms": "^8.0.0",
+        "@angular/animations": "^8.0.0"
+      }
+    }
+  },
+  "module": "fesm5/bit-rating.js",
+  "es2015": "fesm2015/bit-rating.js",
+  "esm5": "esm5/bit-rating.js",
+  "esm2015": "esm2015/bit-rating.js",
+  "fesm5": "fesm5/bit-rating.js",
+  "fesm2015": "fesm2015/bit-rating.js",
+  "typings": "bit-rating.d.ts",
+  "metadata": "bit-rating.metadata.json",
+  "sideEffects": false
+}

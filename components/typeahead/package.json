@@ -1,0 +1,52 @@
+{
+  "name": "@bit/valor-software.ngx-bootstrap.typeahead",
+  "version": "5.1.1",
+  "homepage": "https://bit.dev/valor-software/ngx-bootstrap/typeahead",
+  "main": "dist/typeahead/bundles/bit-typeahead.umd.js",
+  "componentId": {
+    "scope": "valor-software.ngx-bootstrap",
+    "name": "typeahead",
+    "version": "5.1.1"
+  },
+  "dependencies": {
+    "rxjs": "6.4.0",
+    "@bit/valor-software.ngx-bootstrap.internal.positioning": "5.1.1",
+    "@bit/valor-software.ngx-bootstrap.utils": "5.1.1",
+    "@bit/valor-software.ngx-bootstrap.internal.component-loader": "5.1.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "@angular/common": ">=7.0.0",
+    "@angular/core": ">=7.0.0",
+    "@angular/forms": "^8.0.0",
+    "@angular/animations": "^8.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@0.1.7"
+    },
+    "overrides": {
+      "dependencies": {
+        "@angular/forms": "-",
+        "@angular/animations": "-"
+      },
+      "peerDependencies": {
+        "@angular/forms": "^8.0.0",
+        "@angular/animations": "^8.0.0"
+      }
+    },
+    "resolveAliases": {
+      "ngx-bootstrap/positioning": "@bit/valor-software.ngx-bootstrap.internal.positioning",
+      "ngx-bootstrap/utils": "@bit/valor-software.ngx-bootstrap.utils",
+      "ngx-bootstrap/component-loader": "@bit/valor-software.ngx-bootstrap.internal.component-loader"
+    }
+  },
+  "es2015": "dist/typeahead/fesm2015/bit-typeahead.js",
+  "esm5": "dist/typeahead/esm5/bit-typeahead.js",
+  "esm2015": "dist/typeahead/esm2015/bit-typeahead.js",
+  "fesm5": "dist/typeahead/fesm5/bit-typeahead.js",
+  "fesm2015": "dist/typeahead/fesm2015/bit-typeahead.js",
+  "module": "dist/typeahead/fesm5/bit-typeahead.js",
+  "typings": "dist/typeahead/bit-typeahead.d.ts"
+}

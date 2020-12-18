@@ -1,0 +1,51 @@
+{
+  "name": "@bit/primefaces.primeng.selectbutton",
+  "version": "0.0.1-0",
+  "main": "bundles/bit-selectbutton.umd.js",
+  "dependencies": {
+    "@bit/primefaces.primeng.internal.common.selectitem": "file:.dependencies/internal/common/selectitem",
+    "@bit/primefaces.primeng.utils": "file:.dependencies/utils",
+    "tslib": "^1.9.0"
+  },
+  "devDependencies": {
+    "@angular/common": "~8.0.0",
+    "@angular/core": "~8.0.0",
+    "@angular/forms": "~8.0.0",
+    "@angular/router": "~8.0.0"
+  },
+  "peerDependencies": {
+    "@angular/common": "~8.0.0",
+    "@angular/core": "~8.0.0",
+    "@angular/forms": "~8.0.0",
+    "@angular/router": "~8.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@0.1.7"
+    },
+    "overrides": {
+      "dependencies": {
+        "@angular/common": "-",
+        "@angular/core": "-",
+        "@angular/forms": "-",
+        "@angular/router": "-"
+      },
+      "peerDependencies": {
+        "@angular/common": "~8.0.0",
+        "@angular/core": "~8.0.0",
+        "@angular/forms": "~8.0.0",
+        "@angular/router": "~8.0.0"
+      }
+    }
+  },
+  "module": "fesm5/bit-selectbutton.js",
+  "es2015": "fesm2015/bit-selectbutton.js",
+  "esm5": "esm5/bit-selectbutton.js",
+  "esm2015": "esm2015/bit-selectbutton.js",
+  "fesm5": "fesm5/bit-selectbutton.js",
+  "fesm2015": "fesm2015/bit-selectbutton.js",
+  "typings": "bit-selectbutton.d.ts",
+  "metadata": "bit-selectbutton.metadata.json",
+  "sideEffects": false
+}

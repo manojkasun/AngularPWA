@@ -1,0 +1,52 @@
+{
+  "name": "@bit/valor-software.ngx-bootstrap.rating",
+  "version": "5.1.1",
+  "homepage": "https://bit.dev/valor-software/ngx-bootstrap/rating",
+  "main": "dist/rating/bundles/bit-rating.umd.js",
+  "componentId": {
+    "scope": "valor-software.ngx-bootstrap",
+    "name": "rating",
+    "version": "5.1.1"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "@angular/common": ">=7.0.0",
+    "@angular/core": ">=7.0.0",
+    "@angular/forms": "^8.0.0",
+    "@angular/animations": "^8.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@0.1.7"
+    },
+    "overrides": {
+      "dependencies": {
+        "@angular/forms": "-",
+        "@angular/animations": "-"
+      },
+      "peerDependencies": {
+        "@angular/forms": "^8.0.0",
+        "@angular/animations": "^8.0.0"
+      }
+    }
+  },
+  "es2015_ivy_ngcc": "__ivy_ngcc__/dist/rating/fesm2015/bit-rating.js",
+  "es2015": "dist/rating/fesm2015/bit-rating.js",
+  "esm5": "dist/rating/esm5/bit-rating.js",
+  "esm2015": "dist/rating/esm2015/bit-rating.js",
+  "fesm5": "dist/rating/fesm5/bit-rating.js",
+  "fesm2015_ivy_ngcc": "__ivy_ngcc__/dist/rating/fesm2015/bit-rating.js",
+  "fesm2015": "dist/rating/fesm2015/bit-rating.js",
+  "module": "dist/rating/fesm5/bit-rating.js",
+  "typings": "dist/rating/bit-rating.d.ts",
+  "__processed_by_ivy_ngcc__": {
+    "es2015": "10.1.6",
+    "fesm2015": "10.1.6",
+    "typings": "10.1.6"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"
+  }
+}

@@ -1,0 +1,30 @@
+<link rel='stylesheet' type='text/css' href='https://cdn.jsdelivr.net/npm/primeng@8.0.2/resources/themes/nova-light/theme.css' />
+<link rel='stylesheet' type='text/css' href='https://cdn.jsdelivr.net/npm/primeng@8.0.2/resources/primeng.min.css' />
+<h2>
+    Products</h2>
+
+<div class="row">
+    <div class="col" *ngFor="let product of products">
+
+        <h3>
+            <a [title]="product.name + ' details'">
+                    {{ product.name }}
+                </a>
+        </h3>
+
+        <p *ngIf="product.description">
+            Description: {{ product.description }}
+        </p>
+        <div class="row">
+            <div class="col-1">
+                <img src="{{ product.image }}" width="100%">
+            </div>
+            <div class="col-1 "> <button (click)="share()" pButton type="button" label="success" id="cartbtn" class="ui-button-success ">
+                Add to cart
+            </button></div>
+
+        </div>
+
+
+    </div>
+</div>

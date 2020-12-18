@@ -1,0 +1,58 @@
+{
+  "name": "@bit/primefaces.primeng.button",
+  "version": "8.0.2",
+  "homepage": "https://bit.dev/primefaces/primeng/button",
+  "main": "dist/button/bundles/bit-button.umd.js",
+  "componentId": {
+    "scope": "primefaces.primeng",
+    "name": "button",
+    "version": "8.0.2"
+  },
+  "dependencies": {
+    "@bit/primefaces.primeng.internal.dom": "8.0.2"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "@angular/common": "~8.0.0",
+    "@angular/core": "~8.0.0",
+    "@angular/forms": "~8.0.0",
+    "@angular/router": "~8.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@0.1.7"
+    },
+    "overrides": {
+      "dependencies": {
+        "@angular/common": "-",
+        "@angular/core": "-",
+        "@angular/forms": "-",
+        "@angular/router": "-"
+      },
+      "peerDependencies": {
+        "@angular/common": "~8.0.0",
+        "@angular/core": "~8.0.0",
+        "@angular/forms": "~8.0.0",
+        "@angular/router": "~8.0.0"
+      }
+    }
+  },
+  "es2015_ivy_ngcc": "__ivy_ngcc__/dist/button/fesm2015/bit-button.js",
+  "es2015": "dist/button/fesm2015/bit-button.js",
+  "esm5": "dist/button/esm5/bit-button.js",
+  "esm2015": "dist/button/esm2015/bit-button.js",
+  "fesm5": "dist/button/fesm5/bit-button.js",
+  "fesm2015_ivy_ngcc": "__ivy_ngcc__/dist/button/fesm2015/bit-button.js",
+  "fesm2015": "dist/button/fesm2015/bit-button.js",
+  "module": "dist/button/fesm5/bit-button.js",
+  "typings": "dist/button/bit-button.d.ts",
+  "__processed_by_ivy_ngcc__": {
+    "es2015": "10.1.6",
+    "fesm2015": "10.1.6",
+    "typings": "10.1.6"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"
+  }
+}

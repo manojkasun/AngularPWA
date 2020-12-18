@@ -1,0 +1,16 @@
+{
+  "name": "@bit/valor-software.ngx-bootstrap.typeahead/typeahead",
+  "version": "5.1.1",
+  "description": "Native Angular Bootstrap Components",
+  "private": true,
+  "main": "../bundles/bit-typeahead-typeahead.umd.js",
+  "module": "../fesm5/bit-typeahead-typeahead.js",
+  "es2015": "../fesm2015/bit-typeahead-typeahead.js",
+  "esm5": "../esm5/typeahead/bit-typeahead-typeahead.js",
+  "esm2015": "../esm2015/typeahead/bit-typeahead-typeahead.js",
+  "fesm5": "../fesm5/bit-typeahead-typeahead.js",
+  "fesm2015": "../fesm2015/bit-typeahead-typeahead.js",
+  "typings": "bit-typeahead-typeahead.d.ts",
+  "metadata": "bit-typeahead-typeahead.metadata.json",
+  "sideEffects": false
+}

@@ -1,0 +1,50 @@
+{
+  "name": "@bit/primefaces.primeng.button",
+  "version": "0.0.1-0",
+  "main": "bundles/bit-button.umd.js",
+  "dependencies": {
+    "@bit/primefaces.primeng.internal.dom": "file:.dependencies/internal/dom",
+    "tslib": "^1.9.0"
+  },
+  "devDependencies": {
+    "@angular/common": "~8.0.0",
+    "@angular/core": "~8.0.0",
+    "@angular/forms": "~8.0.0",
+    "@angular/router": "~8.0.0"
+  },
+  "peerDependencies": {
+    "@angular/common": "~8.0.0",
+    "@angular/core": "~8.0.0",
+    "@angular/forms": "~8.0.0",
+    "@angular/router": "~8.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@0.1.7"
+    },
+    "overrides": {
+      "dependencies": {
+        "@angular/common": "-",
+        "@angular/core": "-",
+        "@angular/forms": "-",
+        "@angular/router": "-"
+      },
+      "peerDependencies": {
+        "@angular/common": "~8.0.0",
+        "@angular/core": "~8.0.0",
+        "@angular/forms": "~8.0.0",
+        "@angular/router": "~8.0.0"
+      }
+    }
+  },
+  "es2015": "fesm2015/bit-button.js",
+  "esm5": "esm5/bit-button.js",
+  "esm2015": "esm2015/bit-button.js",
+  "fesm5": "fesm5/bit-button.js",
+  "fesm2015": "fesm2015/bit-button.js",
+  "module": "fesm5/bit-button.js",
+  "typings": "bit-button.d.ts",
+  "metadata": "bit-button.metadata.json",
+  "sideEffects": false
+}
